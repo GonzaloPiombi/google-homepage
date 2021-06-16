@@ -1,0 +1,137 @@
+body {
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Top navbar */
+
+#top-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#top-nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8rem;
+    list-style: none;
+    margin-right: 3%;
+}
+
+#top-nav li {
+    margin-right: 10%;
+}
+
+.user-img {
+    font-size: 36px;
+}
+
+/* Main section */
+
+#main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    align-self: center;
+    margin: 10% auto 2%
+}
+
+form {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 2.8rem;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 31.25rem;
+}
+
+.search-icon {
+    color: #9aa0a6;
+    margin-left: 10px;
+}
+
+.voice-icon {
+    background: none;
+    border: none;
+    color: #9aa0a6;
+    cursor: pointer;
+    margin-right: 5px;
+    outline: none;
+}
+
+.search-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 31.25rem;
+}
+
+.search-buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    margin: 0 1%;
+}
+
+.search-buttons button:focus {
+    border: 1px solid #4285f4;
+    outline: none;
+}
+
+.search-buttons button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+/* Footer section */
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0 2%;
+}
+
+footer ul li a {
+    color: #70757a;
+    font-size: 0.9rem;
+    margin: 15px;
+}
+
+footer nav {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
